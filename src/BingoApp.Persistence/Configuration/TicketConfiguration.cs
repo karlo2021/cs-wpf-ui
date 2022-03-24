@@ -16,5 +16,6 @@ internal class TicketConfiguration : IEntityTypeConfiguration<Ticket>
         builder.Property(p => p.Date).HasColumnType("datetime2");
         builder.Property(p => p.Title).HasMaxLength(10);
         builder.HasIndex(p => p.Id).IsUnique();
+        builder.HasIndex(p => p.Title).IsUnique();
     }
 }
