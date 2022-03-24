@@ -12,24 +12,24 @@ This is simple Bingo 3 out of 10
 
 ## **Create Ticket**
 
-![User/Inerface](./resources/user-interface.jpg)
+![User/Inerface](resources/user-interface.jpg)
 
 Add **Ticket Title** and select three numbers. 
 
-![Create/Ticket](./resources/create_ticket.jpg)
+![Create/Ticket](resources/create_ticket.jpg)
 
 Click on **Create Ticket** and wait for message response in dialog box
 
-![DialogBox](./resources/create_ticket_dialog_box.jpg)
+![DialogBox](resources/create_ticket_dialog_box.jpg)
 
 ## **Look for your Ticket**
 
 Type in your ticket **Title**
 
-![Search-Ticket](./resources/look_for_ticket.jpg)
+![Search-Ticket](resources/look_for_ticket.jpg)
 
 ## **Play Bingo**
 
 Click on button **Run Bingo** and find out your luck
 
-![Run-Bingo](./resources/run_bingo.jpg)
+![Run-Bingo](resources/run_bingo.jpg)
