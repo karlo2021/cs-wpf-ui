@@ -7,7 +7,6 @@ using BingoApp.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-
 namespace BingoApp.Persistence.Configuration;
 internal class TicketConfiguration : IEntityTypeConfiguration<Ticket>
 {

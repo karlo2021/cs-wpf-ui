@@ -133,7 +133,7 @@ public partial class MainWindow : Window
 
                 if (correct == 3)
                 {
-                    this.winningTicket.Text = number.TicketId.ToString();
+                    this.winningTicket.Text = ticket.Title.ToString();
                 }
             }
         }
