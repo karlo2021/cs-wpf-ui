@@ -12,8 +12,6 @@ This is simple Bingo 3 out of 10
 
 ## **Create Ticket**
 
-![User/Inerface](resources/user_interface.JPG)
-
 Add **Ticket Title** and select three numbers. 
 
 ![Create/Ticket](resources/create_ticket.JPG)
