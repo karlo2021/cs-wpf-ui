@@ -10,7 +10,7 @@
 
 This is simple Bingo 3 out of 10
 
-##**Create Ticket**
+## **Create Ticket**
 
 ![User/Inerface](./resources/user-interface.jpg)
 
@@ -22,13 +22,13 @@ Click on **Create Ticket** and wait for message response in dialog box
 
 ![DialogBox](./resources/create_ticket_dialog_box.jpg)
 
-##**Look for your Ticket**
+## **Look for your Ticket**
 
 Type in your ticket **Title**
 
 ![Search-Ticket](./resources/look_for_ticket.jpg)
 
-##**Play Bingo**
+## **Play Bingo**
 
 Click on button **Run Bingo** and find out your luck
 
