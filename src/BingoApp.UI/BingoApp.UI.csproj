@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BingoApp.Domain\BingoApp.Domain.csproj" />
+    <ProjectReference Include="..\BingoApp.Persistence\BingoApp.Persistence.csproj" />
+    <ProjectReference Include="..\BingoApp.Business\BingoApp.Business.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+</Project>
