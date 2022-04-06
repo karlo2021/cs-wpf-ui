@@ -1,12 +1,17 @@
-# Web API
+# Bingo application
 
+## Architecture
+  > Domain
+  > Persistence
+  > UI
+  
 ## Database
 
 - Run docker container: `docker compose -f .\scripts\sql-server.yml up`
 - Create Migration: `dotnet ef Migrations add --project .\BingoApp.Persistence\ -- "Server=localhost,8000;Database=BingoAppDb;User Id=SA;Password=Secure123"`
 - Update Database: `dotnet ef database update --project .\BingoApp.Persistence\ -- "Server=localhost,8000;Database=BingoAppDb;User Id=SA;Password=Secure123"`
 
-## BingoApp.UI
+## Bingo 
 
 This is simple Bingo 3 out of 10
 
