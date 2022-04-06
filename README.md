@@ -1,9 +1,18 @@
 # Bingo application
 
-## Architecture
+## Architecture Layers
 
-  > Domain<br/>
+  > Domain<br/> 
+  >> <project> classlib
+  <br/>
   > Persistence<br/>
+  >> <project> classlib
+  >> <project-references> Domain
+  >> <packages> MicrosoftEntityFrameworkCore  
+  >> MicrosoftEntityFrameworkCore.Design 
+  >> MicrosoftEntityFrameworkCore.SqlServer 
+  >>  
+  > Bussines<br/>
   > UI<br/>
   
 ## Database
