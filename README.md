@@ -4,24 +4,24 @@
 
 <pre>
 <b>Domain<b/> 
-  <b>{project}<b/> classlib
-  <b>{project-references}
-  {packages}<b/>
+  {project} classlib
+  {project-references}
+  {packages}
   
 <b>Persistence<b/>
-  <b>{project}<b/> classlib
-  <b>{project-references}<b/> Domain Business
-  <b>{packages}<b/> MicrosoftEntityFrameworkCore  MicrosoftEntityFrameworkCore.Design MicrosoftEntityFrameworkCore.SqlServer 
+  {project} classlib
+  {project-references} Domain Business
+  {packages} MicrosoftEntityFrameworkCore  MicrosoftEntityFrameworkCore.Design MicrosoftEntityFrameworkCore.SqlServer 
    
 <b>Bussines<b/>
-  <b>{project}<b/> classlib
-  <b>{project-references}<b/> Domain 
-  <b>{packages}<b/> MicrosoftEntityFrameworkCore
+  {project} classlib
+  {project-references} Domain 
+  {packages} MicrosoftEntityFrameworkCore
   
-<b>UI
-  {project}<b/> WPF
-  <b>{project-references}<b/> Domain Persistence Business
-  <b>{packages}<b/>
+<b>UI<b/>
+  {project} WPF
+  {project-references} Domain Persistence Business
+  {packages}
 </pre>
 
 ## Database
