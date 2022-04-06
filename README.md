@@ -1,6 +1,7 @@
 # Bingo application
 
 ## Architecture
+
   > Domain
   > Persistence
   > UI
