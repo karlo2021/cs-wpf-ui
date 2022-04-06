@@ -35,27 +35,27 @@ Create Migration <br/>
 Update Database <br/>
 `dotnet ef database update --project .\BingoApp.Persistence\ -- "Server=localhost,8000;Database=BingoAppDb;User Id=SA;Password=Secure123"`
 
-## Bingo 
 
-This is simple Bingo 3 out of 10
 
-## **Create Ticket**
+## Application
 
-Add **Ticket Title** and select three numbers. 
+Create your ticket or tickets. Your ticket should consist of title and three unique numbers
 
 ![Create/Ticket](resources/create_ticket.JPG)
 
-Click on **Create Ticket** and wait for message response in dialog box
+
+Click on button **Create Ticket** and wait for message response in dialog box
 
 ![DialogBox](resources/create_ticket_dialog_box.JPG)
 
-## **Look for your Ticket**
 
-Type in your ticket **Title**
+
+Type in your ticket **Title** to get information about your ticket
 
 ![Search-Ticket](resources/look_for_ticket.JPG)
 
-## **Play Bingo**
+
+
 
 Click on button **Run Bingo** and find out your luck
 
