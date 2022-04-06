@@ -4,12 +4,12 @@
 
 <pre>
 <b>Domain<b/> 
-  <b><project><b/> classlib
+  <b>{project}<b/> classlib
   
 <b>Persistence<b/>
-  <b><project><b/> classlib
-  <b><project-references><b/> Domain Business
-  <b><packages><b/> MicrosoftEntityFrameworkCore  MicrosoftEntityFrameworkCore.Design MicrosoftEntityFrameworkCore.SqlServer 
+  <b>{project}<b/> classlib
+  <b>{project-references}<b/> Domain Business
+  <b>{packages}<b/> MicrosoftEntityFrameworkCore  MicrosoftEntityFrameworkCore.Design MicrosoftEntityFrameworkCore.SqlServer 
    
   > Bussines<br/>
   > UI<br/>
