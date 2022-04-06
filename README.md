@@ -26,9 +26,14 @@
 
 ## Database
 
-- Run docker container: `docker compose -f .\scripts\sql-server.yml up`
-- Create Migration: `dotnet ef Migrations add --project .\BingoApp.Persistence\ -- "Server=localhost,8000;Database=BingoAppDb;User Id=SA;Password=Secure123"`
-- Update Database: `dotnet ef database update --project .\BingoApp.Persistence\ -- "Server=localhost,8000;Database=BingoAppDb;User Id=SA;Password=Secure123"`
+Run docker container <br/>
+`docker compose -f .\scripts\sql-server.yml up`
+
+Create Migration <br/>
+`dotnet ef Migrations add --project .\BingoApp.Persistence\ -- "Server=localhost,8000;Database=BingoAppDb;User Id=SA;Password=Secure123"`
+
+Update Database <br/>
+`dotnet ef database update --project .\BingoApp.Persistence\ -- "Server=localhost,8000;Database=BingoAppDb;User Id=SA;Password=Secure123"`
 
 ## Bingo 
 
