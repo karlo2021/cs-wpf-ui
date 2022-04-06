@@ -5,15 +5,25 @@
 <pre>
 <b>Domain<b/> 
   <b>{project}<b/> classlib
+  <b>{project-references}<b/>
+  <b>{packages}<b/>
   
 <b>Persistence<b/>
   <b>{project}<b/> classlib
   <b>{project-references}<b/> Domain Business
   <b>{packages}<b/> MicrosoftEntityFrameworkCore  MicrosoftEntityFrameworkCore.Design MicrosoftEntityFrameworkCore.SqlServer 
    
-  > Bussines<br/>
-  > UI<br/>
+<b>Bussines<b/>
+  <b>{project}<b/> classlib
+  <b>{project-references}<b/> Domain 
+  <b>{packages}<b/> MicrosoftEntityFrameworkCore
+  
+<b>UI<b/>
+  <b>{project}<b/> WPF
+  <b>{project-references}<b/> Domain Persistence Business
+  <b>{packages}<b/>
 </pre>
+
 ## Database
 
 - Run docker container: `docker compose -f .\scripts\sql-server.yml up`
