@@ -2,19 +2,18 @@
 
 ## Architecture Layers
 
-  > Domain<br/> 
-  >> <project> classlib
-  <br/>
-  > Persistence<br/>
-  >> <project> classlib
-  >> <project-references> Domain
-  >> <packages> MicrosoftEntityFrameworkCore  
-  >> MicrosoftEntityFrameworkCore.Design 
-  >> MicrosoftEntityFrameworkCore.SqlServer 
-  >>  
+<pre>
+<b>Domain<b/> 
+  <b><project><b/> classlib
+  
+<b>Persistence<b/>
+  <b><project><b/> classlib
+  <b><project-references><b/> Domain Business
+  <b><packages><b/> MicrosoftEntityFrameworkCore  MicrosoftEntityFrameworkCore.Design MicrosoftEntityFrameworkCore.SqlServer 
+   
   > Bussines<br/>
   > UI<br/>
-  
+</pre>
 ## Database
 
 - Run docker container: `docker compose -f .\scripts\sql-server.yml up`
