@@ -2,9 +2,9 @@
 
 ## Architecture
 
-  > Domain
-  > Persistence
-  > UI
+  > Domain<br/>
+  > Persistence<br/>
+  > UI<br/>
   
 ## Database
 
