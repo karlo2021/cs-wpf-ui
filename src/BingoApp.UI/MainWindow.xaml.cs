@@ -52,6 +52,9 @@ public partial class MainWindow : Window
             this.setNumbers.Text = "";
             this.setDate.Text = "";
             this.messageBox.Text = "Failed to create ticket!";
+            
+            EnableAllButtons();
+            
             return;
         }
 
@@ -60,16 +63,7 @@ public partial class MainWindow : Window
         this.setNumbers.Text = "";
         this.messageBox.Text = "Tikcet created!";
 
-        this.button0.IsEnabled = true;
-        this.button1.IsEnabled = true;
-        this.button2.IsEnabled = true;
-        this.button3.IsEnabled = true;
-        this.button4.IsEnabled = true;
-        this.button5.IsEnabled = true;
-        this.button6.IsEnabled = true;
-        this.button7.IsEnabled = true;
-        this.button8.IsEnabled = true;
-        this.button9.IsEnabled = true;
+        EnableAllButtons();
 
     }
 
@@ -138,6 +132,21 @@ public partial class MainWindow : Window
             }
         }
     }
+    
+    private void EnableAllButtons()
+    {
+        this.button0.IsEnabled = true;
+        this.button1.IsEnabled = true;
+        this.button2.IsEnabled = true;
+        this.button3.IsEnabled = true;
+        this.button4.IsEnabled = true;
+        this.button5.IsEnabled = true;
+        this.button6.IsEnabled = true;
+        this.button7.IsEnabled = true;
+        this.button8.IsEnabled = true;
+        this.button9.IsEnabled = true;
+    }
+    
     #region Buttons 0-9
     private void PickNumberZero(object sender, RoutedEventArgs e)
     {
