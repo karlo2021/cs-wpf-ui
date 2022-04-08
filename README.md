@@ -3,22 +3,22 @@
 ## Architecture Layers
 
 <pre>
-<b>Domain<b/> 
+  Domain
   {project} classlib
   {project-references}
   {packages}
   
-<b>Persistence<b/>
+  Persistence
   {project} classlib
   {project-references} Domain Business
   {packages} MicrosoftEntityFrameworkCore  MicrosoftEntityFrameworkCore.Design MicrosoftEntityFrameworkCore.SqlServer 
    
-<b>Bussines<b/>
+  Bussines
   {project} classlib
   {project-references} Domain 
   {packages} MicrosoftEntityFrameworkCore
   
-<b>UI<b/>
+  UI
   {project} WPF
   {project-references} Domain Persistence Business
   {packages}
